@@ -24,7 +24,6 @@ public class OptimizationController {
 			produces = {"application/json"})
 	@ResponseStatus(HttpStatus.OK)
 	public List<OptimizationResponse> getOptimizedData (@RequestBody RequestModel request) {
-		System.out.println("Controller");
 		return service.getWorkForceOptimization(request);
 	}
 }

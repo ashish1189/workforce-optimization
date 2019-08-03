@@ -8,18 +8,21 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({ "senior", "junior" })
 public class OptimizationResponse {
 
+	@JsonProperty("structure")
+	private Integer structure;
 	@JsonProperty("senior")
 	private Integer senior;
 	@JsonProperty("junior")
 	private Integer junior;
 
-	public OptimizationResponse() {
-		
+	@JsonProperty("structure")
+	public Integer getStructure() {
+		return structure;
 	}
-	
-	public OptimizationResponse(Integer senior, Integer junior) {
-		this.senior = senior;
-		this.junior = junior;
+
+	@JsonProperty("structure")
+	public void setStructure(Integer structure) {
+		this.structure = structure;
 	}
 
 	@JsonProperty("senior")
