@@ -29,7 +29,7 @@ public class OptimizationServiceImpl implements OptimizationService {
 
 			LOGGER.info("Returning response from service");
 			return optimize.startOptimization(request);
-		} catch (Exception e) {
+		} catch (NullPointerException e) {
 			// TODO: handle exception
 			LOGGER.error("Error while processing request.", e);
 			throw new APIInternalServerException("5001", HttpStatus.INTERNAL_SERVER_ERROR.getReasonPhrase(),
