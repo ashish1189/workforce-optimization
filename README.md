@@ -27,33 +27,33 @@ http://locahost:7080
 
 * Response payload (success)
 	```json 
- [
-  {
-    "senior": 3,
-    "junior": 1
-  },
-  {
-    "senior": 1,
-    "junior": 2
-  },
-  {
-    "senior": 2,
-    "junior": 0
-  },
-  {
-    "senior": 1,
-    "junior": 3
-  }
-]
-```
+	[
+		{
+			"senior": 3,
+			"junior": 1
+		},
+		{
+			"senior": 1,
+			"junior": 2
+		},
+		{
+			"senior": 2,
+			"junior": 0
+		},
+		{
+			"senior": 1,
+			"junior": 3
+		}
+	]
+	```
 
 * Response Error
 
-```json
-{
-  "id": "86c31f18-afb9-42fd-bb52-d0cc144c51b8",
-  "code": "4006",
-  "title": "NO_SENIOR_WORKER",
-  "details": "Junior cleaner's capacity cannot be greater than that of Senior cleaner."
-}
-```
+	```json
+	{
+		"id": "86c31f18-afb9-42fd-bb52-d0cc144c51b8",
+		"code": "4006",
+		"title": "NO_SENIOR_WORKER",
+		"details": "Junior cleaner's capacity cannot be greater than that of Senior cleaner."
+	}
+	```
