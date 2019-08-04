@@ -16,7 +16,7 @@ http://locahost:7080
 /app/optimize
 
 #### Sample Request
-* Request payload <br/>
+* Request body <br/>
 	```json 
 	{ 
 		"rooms": [35, 21, 17, 28],
@@ -25,7 +25,7 @@ http://locahost:7080
 	 }
 	 ```
 
-* Response payload (success)
+* Response body (success)
 	```json 
 	[
 		{
