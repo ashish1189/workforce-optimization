@@ -37,7 +37,7 @@
 	</logger> 
 	-->
 
-	<logger name="com.spo" level="debug" additivity="false">
+	<logger name="com.spo" level="info" additivity="false">
 		<appender-ref ref="FILE-ROLLING" />
 	</logger>
 
